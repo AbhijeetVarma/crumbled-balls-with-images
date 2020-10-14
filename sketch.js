@@ -37,8 +37,9 @@ function draw() {
      Matter.Body.applyForce(ball.body,ball.body.position,{x : 100 , y : -100});
   }
   ground.display();
-  box.display();
   ball.display();
+  box.display();
+ 
  
   
   drawSprites();
